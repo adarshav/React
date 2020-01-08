@@ -44,6 +44,7 @@ class App extends Component {
       //  <p>Iam using class component</p>
       // </div>
       <div className= "App">
+        <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder = "search ur monsters"
           handleChange = {e => this.setState({searchField: e.target.value})}
@@ -71,3 +72,9 @@ export default App;
   2.  Decide the state and where it lives
   3.  what changes when state changes (refer 2019 july udemy react course-React Basics- 21video)
 */
+// *********************************************
+
+// how to Deploy the website
+/*
+  go to package.json and type "homepage": "https://adarshav.github.io/React"
+ */
